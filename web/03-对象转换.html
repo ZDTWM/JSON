@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hello JSON</title>
+<script type="text/javascript">
+	var s1 = "{\"name\":\"盖伦\"";
+	var s2 = ",\"hp\":616}";
+	var s3 = s1+s2;
+	 
+	document.write("这是一个JSON格式的字符串:" + s3);
+	document.write("<br>");
+	var gareen = eval("("+s3+")");
+	 
+	document.write("这是一个JSON对象: " + gareen);
+</script>
+</head>
+<body>
+		
+</body>
+</html>
