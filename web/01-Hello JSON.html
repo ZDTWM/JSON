@@ -4,8 +4,14 @@
 <meta charset="UTF-8">
 <title>Hello JSON</title>
 <script type="text/javascript">
+	function p(s){
+		document.write(s);
+		document.write("<br>");
+	}
 	var gareen = {"name":"盖伦","hp":616};
-	document.write("这是一个JSON对象：" + gareen);
+	p("这是一个JSON对象: " + gareen);
+	p("英雄名称：" + gareen.name);
+	p("英雄血量：" + gareen.hp);
 </script>
 </head>
 <body>
